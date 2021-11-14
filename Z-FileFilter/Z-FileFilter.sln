@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-FileFilter", "Z-FileFilter.csproj", "{ACEEC5DB-2AAE-49D6-AC10-F6F62E1E20B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{A2DB77A1-6D7E-4648-BC8B-9923E9740CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACEEC5DB-2AAE-49D6-AC10-F6F62E1E20B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEEC5DB-2AAE-49D6-AC10-F6F62E1E20B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEEC5DB-2AAE-49D6-AC10-F6F62E1E20B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEEC5DB-2AAE-49D6-AC10-F6F62E1E20B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DB77A1-6D7E-4648-BC8B-9923E9740CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DB77A1-6D7E-4648-BC8B-9923E9740CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DB77A1-6D7E-4648-BC8B-9923E9740CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DB77A1-6D7E-4648-BC8B-9923E9740CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {461B8DA9-7602-48C1-8192-057BC1FF3352}
+	EndGlobalSection
+EndGlobal

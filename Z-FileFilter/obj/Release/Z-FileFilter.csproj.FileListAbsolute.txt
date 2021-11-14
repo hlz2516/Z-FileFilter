@@ -1,0 +1,13 @@
+E:\Z-FileFilter\Z-FileFilter\bin\Release\Z-FileFilter.exe.manifest
+E:\Z-FileFilter\Z-FileFilter\bin\Release\Z-FileFilter.application
+E:\Z-FileFilter\Z-FileFilter\bin\Release\Z-FileFilter.exe
+E:\Z-FileFilter\Z-FileFilter\bin\Release\Z-FileFilter.pdb
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z_FileFilter.Form1.resources
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z_FileFilter.Form2.resources
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z_FileFilter.Properties.Resources.resources
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.csproj.GenerateResource.cache
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.csproj.CoreCompileInputs.cache
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.exe.manifest
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.application
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.exe
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.pdb

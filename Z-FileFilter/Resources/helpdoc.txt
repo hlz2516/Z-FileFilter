@@ -1,0 +1,24 @@
+==============================
+	Z-FileFilter帮助文档
+	作者：hlz2516
+	创作时间：2021/11/14
+	说明：本项目遵守MIT协议
+==============================
+
+1. 大部分用户点进来看想必是想了解文件名的字符匹配规则吧，即筛选条件中的"文件名称 like xxxx"，其中的xxxx不知道该如何填写。
+这里的xxxx遵循的是C#的Regex Expression即正则表达式匹配规则，我整理了一些比较常用的正则匹配规则，如果下面的规则中没有
+你想要的，你可以去以下网址查询
+https://docs.microsoft.com/zh-cn/dotnet/standard/base-types/regular-expression-language-quick-reference
+匹配示例：
+①查找以.dll结尾的文件
+^.*[.]dll
+②查找以system开头的文件
+^system[.]*
+③查找以system为结尾的文件
+^.*system[.][^\.]*\z
+④查找文件名中含有system的文件
+^.*system.*[.][^\.]*\z
+
+2. 本项目是在工作之余做的，所以不可避免有些Bug，欢迎提issue
+
+3. 如果你觉得这个小工具对你有帮助的话，帮忙star一下哦~
