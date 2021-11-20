@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Z_FileFilter
@@ -45,6 +46,45 @@ namespace Z_FileFilter
             System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo("Explorer.exe");
             psi.Arguments = "/e,/select," + items[2].Text;
             System.Diagnostics.Process.Start(psi);
+        }
+
+        private void CopyBtn_Click(object sender, EventArgs e)
+        {
+            string targetPath = PublicTools.OpenFolderBrowserDialog();
+
+            for (int i = 0; i < listView1.Items.Count; i++)
+            {
+                var item = listView1.Items[i];
+                //System.Diagnostics.Debug.WriteLine(item.SubItems[2].Text);
+                FileInfo fileInfo = new FileInfo(item.SubItems[2].Text);
+                //拷贝至指定目录，允许覆盖
+                fileInfo.CopyTo(targetPath + "\\" + fileInfo.Name,true);
+            }
+            MessageBox.Show("已完成拷贝！", "提示", 
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var res = MessageBox.Show("你确定要删除结果表里所有的文件吗？\n" +
+                "如果确定，请点击是，如果不确定，请点击否", "提示",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (res == DialogResult.OK)
+            {
+                for (int i = listView1.Items.Count-1; i >=0 ; i--)
+                {
+                    var item = listView1.Items[i];
+                    FileInfo fileInfo = new FileInfo(item.SubItems[2].Text);
+                    fileInfo.Delete();
+                    listView1.Items.Remove(item);
+                }
+                MessageBox.Show("已删除完毕！", "提示",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (res == DialogResult.Cancel)
+            {
+                return;
+            }
         }
     }
 }

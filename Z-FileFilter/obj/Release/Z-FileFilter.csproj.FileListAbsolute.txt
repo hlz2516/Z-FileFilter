@@ -11,3 +11,4 @@ E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.exe.manifest
 E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.application
 E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.exe
 E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.pdb
+E:\Z-FileFilter\Z-FileFilter\obj\Release\Z-FileFilter.csprojAssemblyReference.cache

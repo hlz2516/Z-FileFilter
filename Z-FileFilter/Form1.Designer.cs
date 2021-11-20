@@ -53,6 +53,7 @@ namespace Z_FileFilter
             this.Condition1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.ResultTabSwitch = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@ namespace Z_FileFilter
             // 
             this.FilePathInput.Location = new System.Drawing.Point(126, 30);
             this.FilePathInput.Name = "FilePathInput";
-            this.FilePathInput.Size = new System.Drawing.Size(457, 25);
+            this.FilePathInput.Size = new System.Drawing.Size(391, 25);
             this.FilePathInput.TabIndex = 0;
             // 
             // LabelFilePath
@@ -321,11 +322,22 @@ namespace Z_FileFilter
             this.ResultTabSwitch.UseVisualStyleBackColor = false;
             this.ResultTabSwitch.Click += new System.EventHandler(this.ResultTabSwitch_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(523, 30);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 26);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "选择目录";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 673);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.ResultTabSwitch);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
@@ -369,6 +381,7 @@ namespace Z_FileFilter
         public System.Windows.Forms.Button ResultTabSwitch;
         private System.Windows.Forms.Button HelpDocBtn;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 

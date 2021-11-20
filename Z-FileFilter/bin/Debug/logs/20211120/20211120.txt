@@ -1,0 +1,17 @@
+2021-11-20 09:56:20.733info-->isConflicted:False
+2021-11-20 09:57:38.274info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 09:57:38.275info-->isConflicted:False
+2021-11-20 10:08:42.386info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 10:08:42.390info-->isConflicted:False
+2021-11-20 10:12:41.163info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 10:12:41.165info-->isConflicted:False
+2021-11-20 10:24:48.959info-->isConflicted:False
+2021-11-20 10:27:15.017info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 10:27:15.022info-->isConflicted:False
+2021-11-20 10:27:59.473info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 10:27:59.474info-->isConflicted:False
+2021-11-20 10:33:45.937info-->isConflicted:False
+2021-11-20 10:34:13.956info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 10:34:13.957info-->isConflicted:False
+2021-11-20 10:34:56.753info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
+2021-11-20 10:34:56.753info-->isConflicted:False

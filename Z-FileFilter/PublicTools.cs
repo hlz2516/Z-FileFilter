@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace Z_FileFilter
 {
@@ -60,6 +61,18 @@ namespace Z_FileFilter
                     sw.Close();
                 }
             }
+        }
+
+        public static string OpenFolderBrowserDialog()
+        {
+            string path = "";
+            FolderBrowserDialog dialog = new FolderBrowserDialog();
+            dialog.Description = "请选择文件夹路径";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                path = dialog.SelectedPath;
+            }
+            return path;
         }
     }
 }

@@ -401,6 +401,12 @@ namespace Z_FileFilter
 
             conditions = null;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string targetPath = PublicTools.OpenFolderBrowserDialog();
+            FilePathInput.Text = targetPath;
+        }
     }
 
 }
