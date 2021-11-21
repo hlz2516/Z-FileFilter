@@ -96,9 +96,21 @@ namespace Z_FileFilter
                         PublicTools.WriteLogs("logs", "error", e.Message);
                     }
                     break;
-                case "等于":
-                    if (name.Equals(value))
-                        res = true;
+                case "unlike":
+                    try
+                    {
+                        //默认用户输入的值为正则表达式
+                        value = value.Trim();
+                        Regex regex = new Regex(@value);
+                        Match matchRes = regex.Match(name);
+                        if (!matchRes.Success)
+                            res = true;
+                    }
+                    catch (Exception e)
+                    {
+                        res = false;
+                        PublicTools.WriteLogs("logs", "error", e.Message);
+                    }
                     break;
                 default:
                     break;

@@ -1,0 +1,289 @@
+2021-11-21 11:50:55.374info-->isConflicted:False
+2021-11-21 11:51:28.675info-->isConflicted:False
+2021-11-21 11:52:27.935info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-21 11:52:27.935info-->isConflicted:False
+2021-11-21 11:57:25.218info-->isConflicted:False
+2021-11-21 11:57:44.769info-->type:1-文件大小(MB),operator:>,value:20,invalid:False
+2021-11-21 11:57:44.770info-->isConflicted:False
+2021-11-21 11:58:33.662error-->you dont have permission to open the directory:[C:\Windows\Temp\vmware-SYSTEM]
+2021-11-21 11:58:34.358error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\sru]
+2021-11-21 11:58:34.582error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\networklist]
+2021-11-21 11:58:34.645error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Msdtc]
+2021-11-21 11:58:34.930error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\inetsrv\Config]
+2021-11-21 11:58:35.011error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\FxsTmp]
+2021-11-21 11:58:35.330error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Configuration]
+2021-11-21 11:58:35.334error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\config]
+2021-11-21 11:58:35.346error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Com\dmp]
+2021-11-21 11:58:37.235error-->you dont have permission to open the directory:[C:\Windows\System32\WDI]
+2021-11-21 11:58:37.367error-->you dont have permission to open the directory:[C:\Windows\System32\wbem\MOF]
+2021-11-21 11:58:37.573error-->you dont have permission to open the directory:[C:\Windows\System32\sru]
+2021-11-21 11:58:37.638error-->you dont have permission to open the directory:[C:\Windows\System32\spool\SERVERS]
+2021-11-21 11:58:37.643error-->you dont have permission to open the directory:[C:\Windows\System32\spool\PRINTERS]
+2021-11-21 11:58:37.707error-->you dont have permission to open the directory:[C:\Windows\System32\SleepStudy]
+2021-11-21 11:58:37.788error-->you dont have permission to open the directory:[C:\Windows\System32\RsFx]
+2021-11-21 11:58:38.125error-->you dont have permission to open the directory:[C:\Windows\System32\networklist]
+2021-11-21 11:58:38.196error-->you dont have permission to open the directory:[C:\Windows\System32\MsDtc]
+2021-11-21 11:58:38.797error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\MetaBack]
+2021-11-21 11:58:38.810error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\History]
+2021-11-21 11:58:38.826error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\config]
+2021-11-21 11:58:38.887error-->you dont have permission to open the directory:[C:\Windows\System32\ias]
+2021-11-21 11:58:38.944error-->you dont have permission to open the directory:[C:\Windows\System32\FxsTmp]
+2021-11-21 11:58:39.480error-->you dont have permission to open the directory:[C:\Windows\System32\DriverState]
+2021-11-21 11:58:39.654error-->you dont have permission to open the directory:[C:\Windows\System32\drivers\DriverData]
+2021-11-21 11:58:39.893error-->you dont have permission to open the directory:[C:\Windows\System32\Configuration]
+2021-11-21 11:58:39.896error-->you dont have permission to open the directory:[C:\Windows\System32\config]
+2021-11-21 11:58:39.911error-->you dont have permission to open the directory:[C:\Windows\System32\Com\dmp]
+2021-11-21 12:01:27.258info-->type:1-文件大小(MB),operator:>,value:20,invalid:False
+2021-11-21 12:01:27.258info-->isConflicted:False
+2021-11-21 12:02:17.817error-->you dont have permission to open the directory:[C:\Windows\Temp\vmware-SYSTEM]
+2021-11-21 12:02:18.485error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\sru]
+2021-11-21 12:02:18.698error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\networklist]
+2021-11-21 12:02:18.763error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Msdtc]
+2021-11-21 12:02:19.030error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\inetsrv\Config]
+2021-11-21 12:02:19.109error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\FxsTmp]
+2021-11-21 12:02:19.423error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Configuration]
+2021-11-21 12:02:19.426error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\config]
+2021-11-21 12:02:19.439error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Com\dmp]
+2021-11-21 12:02:21.249error-->you dont have permission to open the directory:[C:\Windows\System32\WDI]
+2021-11-21 12:02:21.368error-->you dont have permission to open the directory:[C:\Windows\System32\wbem\MOF]
+2021-11-21 12:02:21.571error-->you dont have permission to open the directory:[C:\Windows\System32\sru]
+2021-11-21 12:02:21.630error-->you dont have permission to open the directory:[C:\Windows\System32\spool\SERVERS]
+2021-11-21 12:02:21.635error-->you dont have permission to open the directory:[C:\Windows\System32\spool\PRINTERS]
+2021-11-21 12:02:21.697error-->you dont have permission to open the directory:[C:\Windows\System32\SleepStudy]
+2021-11-21 12:02:21.777error-->you dont have permission to open the directory:[C:\Windows\System32\RsFx]
+2021-11-21 12:02:22.090error-->you dont have permission to open the directory:[C:\Windows\System32\networklist]
+2021-11-21 12:02:22.161error-->you dont have permission to open the directory:[C:\Windows\System32\MsDtc]
+2021-11-21 12:02:22.675error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\MetaBack]
+2021-11-21 12:02:22.689error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\History]
+2021-11-21 12:02:22.704error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\config]
+2021-11-21 12:02:22.764error-->you dont have permission to open the directory:[C:\Windows\System32\ias]
+2021-11-21 12:02:22.825error-->you dont have permission to open the directory:[C:\Windows\System32\FxsTmp]
+2021-11-21 12:02:23.359error-->you dont have permission to open the directory:[C:\Windows\System32\DriverState]
+2021-11-21 12:02:23.522error-->you dont have permission to open the directory:[C:\Windows\System32\drivers\DriverData]
+2021-11-21 12:02:23.748error-->you dont have permission to open the directory:[C:\Windows\System32\Configuration]
+2021-11-21 12:02:23.752error-->you dont have permission to open the directory:[C:\Windows\System32\config]
+2021-11-21 12:02:23.766error-->you dont have permission to open the directory:[C:\Windows\System32\Com\dmp]
+2021-11-21 12:04:32.691info-->type:1-文件大小(MB),operator:>,value:20,invalid:False
+2021-11-21 12:04:32.692info-->isConflicted:False
+2021-11-21 12:05:24.418error-->you dont have permission to open the directory:[C:\Windows\Temp\vmware-SYSTEM]
+2021-11-21 12:05:25.169error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\sru]
+2021-11-21 12:05:25.451error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\networklist]
+2021-11-21 12:05:25.605error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Msdtc]
+2021-11-21 12:05:25.920error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\inetsrv\Config]
+2021-11-21 12:05:26.058error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\FxsTmp]
+2021-11-21 12:05:26.459error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Configuration]
+2021-11-21 12:05:26.462error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\config]
+2021-11-21 12:05:26.537error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Com\dmp]
+2021-11-21 12:05:28.498error-->you dont have permission to open the directory:[C:\Windows\System32\WDI]
+2021-11-21 12:05:28.622error-->you dont have permission to open the directory:[C:\Windows\System32\wbem\MOF]
+2021-11-21 12:05:28.903error-->you dont have permission to open the directory:[C:\Windows\System32\sru]
+2021-11-21 12:05:29.042error-->you dont have permission to open the directory:[C:\Windows\System32\spool\SERVERS]
+2021-11-21 12:05:29.104error-->you dont have permission to open the directory:[C:\Windows\System32\spool\PRINTERS]
+2021-11-21 12:05:29.292error-->you dont have permission to open the directory:[C:\Windows\System32\SleepStudy]
+2021-11-21 12:05:29.401error-->you dont have permission to open the directory:[C:\Windows\System32\RsFx]
+2021-11-21 12:05:29.795error-->you dont have permission to open the directory:[C:\Windows\System32\networklist]
+2021-11-21 12:05:29.892error-->you dont have permission to open the directory:[C:\Windows\System32\MsDtc]
+2021-11-21 12:05:30.452error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\MetaBack]
+2021-11-21 12:05:30.520error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\History]
+2021-11-21 12:05:30.570error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\config]
+2021-11-21 12:05:30.693error-->you dont have permission to open the directory:[C:\Windows\System32\ias]
+2021-11-21 12:05:30.776error-->you dont have permission to open the directory:[C:\Windows\System32\FxsTmp]
+2021-11-21 12:05:31.343error-->you dont have permission to open the directory:[C:\Windows\System32\DriverState]
+2021-11-21 12:05:31.575error-->you dont have permission to open the directory:[C:\Windows\System32\drivers\DriverData]
+2021-11-21 12:05:31.873error-->you dont have permission to open the directory:[C:\Windows\System32\Configuration]
+2021-11-21 12:05:31.904error-->you dont have permission to open the directory:[C:\Windows\System32\config]
+2021-11-21 12:05:31.982error-->you dont have permission to open the directory:[C:\Windows\System32\Com\dmp]
+2021-11-21 12:06:23.202info-->type:1-文件大小(MB),operator:>,value:50,invalid:False
+2021-11-21 12:06:23.203info-->isConflicted:False
+2021-11-21 12:07:15.204error-->you dont have permission to open the directory:[C:\Windows\Temp\vmware-SYSTEM]
+2021-11-21 12:07:15.887error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\sru]
+2021-11-21 12:07:16.104error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\networklist]
+2021-11-21 12:07:16.165error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Msdtc]
+2021-11-21 12:07:16.438error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\inetsrv\Config]
+2021-11-21 12:07:16.531error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\FxsTmp]
+2021-11-21 12:07:16.841error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Configuration]
+2021-11-21 12:07:16.845error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\config]
+2021-11-21 12:07:16.857error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Com\dmp]
+2021-11-21 12:07:18.659error-->you dont have permission to open the directory:[C:\Windows\System32\WDI]
+2021-11-21 12:07:18.769error-->you dont have permission to open the directory:[C:\Windows\System32\wbem\MOF]
+2021-11-21 12:07:18.971error-->you dont have permission to open the directory:[C:\Windows\System32\sru]
+2021-11-21 12:07:19.032error-->you dont have permission to open the directory:[C:\Windows\System32\spool\SERVERS]
+2021-11-21 12:07:19.037error-->you dont have permission to open the directory:[C:\Windows\System32\spool\PRINTERS]
+2021-11-21 12:07:19.101error-->you dont have permission to open the directory:[C:\Windows\System32\SleepStudy]
+2021-11-21 12:07:19.181error-->you dont have permission to open the directory:[C:\Windows\System32\RsFx]
+2021-11-21 12:07:19.492error-->you dont have permission to open the directory:[C:\Windows\System32\networklist]
+2021-11-21 12:07:19.563error-->you dont have permission to open the directory:[C:\Windows\System32\MsDtc]
+2021-11-21 12:07:20.066error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\MetaBack]
+2021-11-21 12:07:20.080error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\History]
+2021-11-21 12:07:20.094error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\config]
+2021-11-21 12:07:20.157error-->you dont have permission to open the directory:[C:\Windows\System32\ias]
+2021-11-21 12:07:20.210error-->you dont have permission to open the directory:[C:\Windows\System32\FxsTmp]
+2021-11-21 12:07:20.744error-->you dont have permission to open the directory:[C:\Windows\System32\DriverState]
+2021-11-21 12:07:20.891error-->you dont have permission to open the directory:[C:\Windows\System32\drivers\DriverData]
+2021-11-21 12:07:21.123error-->you dont have permission to open the directory:[C:\Windows\System32\Configuration]
+2021-11-21 12:07:21.127error-->you dont have permission to open the directory:[C:\Windows\System32\config]
+2021-11-21 12:07:21.141error-->you dont have permission to open the directory:[C:\Windows\System32\Com\dmp]
+2021-11-21 12:24:23.676error-->you dont have permission to open the directory:[C:\Windows\ServiceState]
+2021-11-21 12:24:23.680error-->you dont have permission to open the directory:[C:\Windows\ServiceProfiles\NetworkService]
+2021-11-21 12:24:23.684error-->you dont have permission to open the directory:[C:\Windows\ServiceProfiles\MSSQL$SQLEXPRESS]
+2021-11-21 12:24:23.688error-->you dont have permission to open the directory:[C:\Windows\ServiceProfiles\LocalService]
+2021-11-21 12:24:23.696error-->you dont have permission to open the directory:[C:\Windows\security\cap]
+2021-11-21 12:24:23.700error-->you dont have permission to open the directory:[C:\Windows\security\audit]
+2021-11-21 12:24:23.721error-->you dont have permission to open the directory:[C:\Windows\Resources\Themes\aero\VSCache]
+2021-11-21 12:24:23.831error-->you dont have permission to open the directory:[C:\Windows\Provisioning\Autopilot]
+2021-11-21 12:24:23.840error-->you dont have permission to open the directory:[C:\Windows\Prefetch]
+2021-11-21 12:24:23.971error-->you dont have permission to open the directory:[C:\Windows\ModemLogs]
+2021-11-21 12:24:23.974error-->you dont have permission to open the directory:[C:\Windows\Minidump]
+2021-11-21 12:24:26.637error-->you dont have permission to open the directory:[C:\Windows\LiveKernelReports]
+2021-11-21 12:24:32.779error-->you dont have permission to open the directory:[C:\Users\DefaultAppPool]
+2021-11-21 12:24:32.838error-->you dont have permission to open the directory:[C:\Users\Classic .NET AppPool]
+2021-11-21 12:24:52.627error-->you dont have permission to open the directory:[C:\Users\71425\AppData\Local\Temp\msdtadmin]
+2021-11-21 12:24:52.965error-->you dont have permission to open the directory:[C:\Users\71425\AppData\Local\Temp\LISF_5F266.tmp]
+2021-11-21 12:25:10.613error-->you dont have permission to open the directory:[C:\Users\71425\AppData\Local\ElevatedDiagnostics]
+2021-11-21 12:25:26.123error-->you dont have permission to open the directory:[C:\Users\.NET v4.5 Classic]
+2021-11-21 12:25:26.127error-->you dont have permission to open the directory:[C:\Users\.NET v4.5]
+2021-11-21 12:25:26.130error-->you dont have permission to open the directory:[C:\Users\.NET v2.0 Classic]
+2021-11-21 12:25:26.133error-->you dont have permission to open the directory:[C:\Users\.NET v2.0]
+2021-11-21 12:25:26.161error-->you dont have permission to open the directory:[C:\ProgramData\WindowsHolographicDevices]
+2021-11-21 12:25:26.185error-->you dont have permission to open the directory:[C:\ProgramData\VMware\VMware USB Arbitration Service]
+2021-11-21 12:25:26.191error-->you dont have permission to open the directory:[C:\ProgramData\VMware\SSL]
+2021-11-21 12:25:26.670error-->you dont have permission to open the directory:[C:\ProgramData\Packages]
+2021-11-21 12:25:27.150error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows NT\MSFax]
+2021-11-21 12:25:27.155error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\Support]
+2021-11-21 12:25:27.159error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\Scans]
+2021-11-21 12:25:27.163error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\Quarantine]
+2021-11-21 12:25:27.167error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\Network Inspection System]
+2021-11-21 12:25:27.170error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\LocalCopy]
+2021-11-21 12:25:27.174error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\Features]
+2021-11-21 12:25:27.180error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows Defender\Clean Store]
+2021-11-21 12:25:27.185error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\wfp]
+2021-11-21 12:25:27.192error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\SystemData]
+2021-11-21 12:25:27.290error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\Power Efficiency Diagnostics]
+2021-11-21 12:25:27.295error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\PackagedEventProviders]
+2021-11-21 12:25:27.300error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\Models]
+2021-11-21 12:25:27.303error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\LfSvc]
+2021-11-21 12:25:27.641error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Windows\AppRepository]
+2021-11-21 12:25:28.284error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Spectrum]
+2021-11-21 12:25:28.288error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\SmsRouter]
+2021-11-21 12:25:28.293error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Search\Data]
+2021-11-21 12:25:28.298error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Provisioning\AssetCache]
+2021-11-21 12:25:28.326error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Network\Downloader]
+2021-11-21 12:25:28.617error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Diagnosis]
+2021-11-21 12:25:28.646error-->you dont have permission to open the directory:[C:\ProgramData\Microsoft\Crypto\PCPKSP\WindowsAIK]
+2021-11-21 12:25:28.715error-->you dont have permission to open the directory:[C:\ProgramData\McAfee\Proxy\data]
+2021-11-21 12:25:55.693error-->you dont have permission to open the directory:[C:\Program Files\WindowsApps]
+2021-11-21 12:26:04.719error-->you dont have permission to open the directory:[C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\repldata]
+2021-11-21 12:26:04.723error-->you dont have permission to open the directory:[C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\Log]
+2021-11-21 12:26:04.726error-->you dont have permission to open the directory:[C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\JOBS]
+2021-11-21 12:26:04.793error-->you dont have permission to open the directory:[C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\Backup]
+2021-11-21 12:26:20.723error-->you dont have permission to open the directory:[C:\Program Files\Common Files\McAfee\AMContent]
+2021-11-21 12:26:23.021error-->you dont have permission to open the directory:[C:\inetpub\temp\IIS Temporary Compressed Files]
+2021-11-21 12:26:23.024error-->you dont have permission to open the directory:[C:\inetpub\temp\ASP Compiled Templates]
+2021-11-21 12:26:23.027error-->you dont have permission to open the directory:[C:\inetpub\temp\appPools]
+2021-11-21 12:26:23.033error-->you dont have permission to open the directory:[C:\inetpub\logs\LogFiles\W3SVC2]
+2021-11-21 12:26:23.036error-->you dont have permission to open the directory:[C:\inetpub\logs\LogFiles\W3SVC1]
+2021-11-21 12:26:23.039error-->you dont have permission to open the directory:[C:\inetpub\logs\FailedReqLogFiles]
+2021-11-21 12:26:23.042error-->you dont have permission to open the directory:[C:\inetpub\history]
+2021-11-21 13:19:43.829info-->isConflicted:False
+2021-11-21 13:24:33.384info-->isConflicted:False
+2021-11-21 13:27:30.690info-->type:3-创建时间,operator:之前,value:2021/11/14 0:00:00,invalid:False
+2021-11-21 13:27:30.691info-->isConflicted:False
+2021-11-21 13:30:36.640info-->type:3-创建时间,operator:之后,value:2021/11/14 0:00:00,invalid:False
+2021-11-21 13:30:36.641info-->isConflicted:False
+2021-11-21 13:30:52.926info-->type:3-创建时间,operator:之后,value:2021/11/14 0:00:00,invalid:False
+2021-11-21 13:30:52.927info-->type:4-最后编辑时间,operator:之后,value:2021/11/14 0:00:00,invalid:False
+2021-11-21 13:30:52.927info-->isConflicted:False
+2021-11-21 13:39:09.021info-->isConflicted:False
+2021-11-21 13:39:23.216info-->isConflicted:False
+2021-11-21 13:41:10.247info-->isConflicted:False
+2021-11-21 13:43:29.550info-->isConflicted:False
+2021-11-21 13:43:42.199info-->isConflicted:False
+2021-11-21 13:43:57.343info-->isConflicted:False
+2021-11-21 13:56:37.048info-->type:3-创建时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:56:37.048info-->type:4-最后编辑时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:56:37.048info-->isConflicted:False
+2021-11-21 13:57:20.028info-->type:3-创建时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:57:20.029info-->type:4-最后编辑时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:57:20.029info-->type:2-文件名称,operator:unlike,value:^.*[.]dll,invalid:False
+2021-11-21 13:57:20.029info-->isConflicted:False
+2021-11-21 13:57:58.244info-->type:3-创建时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:57:58.245info-->type:4-最后编辑时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:57:58.245info-->type:2-文件名称,operator:unlike,value:^.*[.]dll,invalid:False
+2021-11-21 13:57:58.245info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-21 13:57:58.246info-->isConflicted:False
+2021-11-21 13:58:53.815error-->you dont have permission to open the directory:[C:\Windows\Temp\vmware-SYSTEM]
+2021-11-21 13:58:54.538error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\sru]
+2021-11-21 13:58:54.760error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\networklist]
+2021-11-21 13:58:54.826error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Msdtc]
+2021-11-21 13:58:55.125error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\inetsrv\Config]
+2021-11-21 13:58:55.214error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\FxsTmp]
+2021-11-21 13:58:55.549error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Configuration]
+2021-11-21 13:58:55.554error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\config]
+2021-11-21 13:58:55.567error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Com\dmp]
+2021-11-21 13:58:57.521error-->you dont have permission to open the directory:[C:\Windows\System32\WDI]
+2021-11-21 13:58:57.636error-->you dont have permission to open the directory:[C:\Windows\System32\wbem\MOF]
+2021-11-21 13:58:57.849error-->you dont have permission to open the directory:[C:\Windows\System32\sru]
+2021-11-21 13:58:57.917error-->you dont have permission to open the directory:[C:\Windows\System32\spool\SERVERS]
+2021-11-21 13:58:57.922error-->you dont have permission to open the directory:[C:\Windows\System32\spool\PRINTERS]
+2021-11-21 13:58:57.986error-->you dont have permission to open the directory:[C:\Windows\System32\SleepStudy]
+2021-11-21 13:58:58.070error-->you dont have permission to open the directory:[C:\Windows\System32\RsFx]
+2021-11-21 13:58:58.414error-->you dont have permission to open the directory:[C:\Windows\System32\networklist]
+2021-11-21 13:58:58.487error-->you dont have permission to open the directory:[C:\Windows\System32\MsDtc]
+2021-11-21 13:58:59.069error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\MetaBack]
+2021-11-21 13:58:59.083error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\History]
+2021-11-21 13:58:59.099error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\config]
+2021-11-21 13:58:59.163error-->you dont have permission to open the directory:[C:\Windows\System32\ias]
+2021-11-21 13:58:59.219error-->you dont have permission to open the directory:[C:\Windows\System32\FxsTmp]
+2021-11-21 13:58:59.772error-->you dont have permission to open the directory:[C:\Windows\System32\DriverState]
+2021-11-21 13:58:59.937error-->you dont have permission to open the directory:[C:\Windows\System32\drivers\DriverData]
+2021-11-21 13:59:00.177error-->you dont have permission to open the directory:[C:\Windows\System32\Configuration]
+2021-11-21 13:59:00.181error-->you dont have permission to open the directory:[C:\Windows\System32\config]
+2021-11-21 13:59:00.194error-->you dont have permission to open the directory:[C:\Windows\System32\Com\dmp]
+2021-11-21 13:59:39.857info-->type:3-创建时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:59:39.858info-->type:4-最后编辑时间,operator:之后,value:2021/10/21 0:00:00,invalid:False
+2021-11-21 13:59:39.858info-->type:2-文件名称,operator:unlike,value:^.*[.]exe,invalid:False
+2021-11-21 13:59:39.858info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-21 13:59:39.858info-->isConflicted:False
+2021-11-21 14:03:19.871info-->type:2-文件名称,operator:unlike,value:^.*[.]dll,invalid:False
+2021-11-21 14:03:19.871info-->type:2-文件名称,operator:like,value:^.*[.]exe,invalid:False
+2021-11-21 14:03:19.872info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-21 14:03:19.872info-->isConflicted:False
+2021-11-21 14:03:35.968info-->type:2-文件名称,operator:unlike,value:^.*[.]dll,invalid:False
+2021-11-21 14:03:35.968info-->type:2-文件名称,operator:unlike,value:^.*[.]exe,invalid:False
+2021-11-21 14:03:35.969info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-21 14:03:35.969info-->isConflicted:False
+2021-11-21 14:04:22.826error-->you dont have permission to open the directory:[C:\Windows\Temp\vmware-SYSTEM]
+2021-11-21 14:04:23.405error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\sru]
+2021-11-21 14:04:23.565error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\networklist]
+2021-11-21 14:04:23.608error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Msdtc]
+2021-11-21 14:04:23.840error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\inetsrv\Config]
+2021-11-21 14:04:23.904error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\FxsTmp]
+2021-11-21 14:04:24.109error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Configuration]
+2021-11-21 14:04:24.112error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\config]
+2021-11-21 14:04:24.122error-->you dont have permission to open the directory:[C:\Windows\SysWOW64\Com\dmp]
+2021-11-21 14:04:25.771error-->you dont have permission to open the directory:[C:\Windows\System32\WDI]
+2021-11-21 14:04:25.881error-->you dont have permission to open the directory:[C:\Windows\System32\wbem\MOF]
+2021-11-21 14:04:26.044error-->you dont have permission to open the directory:[C:\Windows\System32\sru]
+2021-11-21 14:04:26.105error-->you dont have permission to open the directory:[C:\Windows\System32\spool\SERVERS]
+2021-11-21 14:04:26.110error-->you dont have permission to open the directory:[C:\Windows\System32\spool\PRINTERS]
+2021-11-21 14:04:26.168error-->you dont have permission to open the directory:[C:\Windows\System32\SleepStudy]
+2021-11-21 14:04:26.226error-->you dont have permission to open the directory:[C:\Windows\System32\RsFx]
+2021-11-21 14:04:26.481error-->you dont have permission to open the directory:[C:\Windows\System32\networklist]
+2021-11-21 14:04:26.528error-->you dont have permission to open the directory:[C:\Windows\System32\MsDtc]
+2021-11-21 14:04:26.996error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\MetaBack]
+2021-11-21 14:04:27.007error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\History]
+2021-11-21 14:04:27.019error-->you dont have permission to open the directory:[C:\Windows\System32\inetsrv\config]
+2021-11-21 14:04:27.068error-->you dont have permission to open the directory:[C:\Windows\System32\ias]
+2021-11-21 14:04:27.111error-->you dont have permission to open the directory:[C:\Windows\System32\FxsTmp]
+2021-11-21 14:04:27.460error-->you dont have permission to open the directory:[C:\Windows\System32\DriverState]
+2021-11-21 14:04:27.635error-->you dont have permission to open the directory:[C:\Windows\System32\drivers\DriverData]
+2021-11-21 14:04:27.806error-->you dont have permission to open the directory:[C:\Windows\System32\Configuration]
+2021-11-21 14:04:27.809error-->you dont have permission to open the directory:[C:\Windows\System32\config]
+2021-11-21 14:04:27.822error-->you dont have permission to open the directory:[C:\Windows\System32\Com\dmp]
+2021-11-21 15:31:50.098info-->type:1-文件大小(MB),operator:>,value:100,invalid:False
+2021-11-21 15:31:50.100info-->isConflicted:False
+2021-11-21 15:32:39.851info-->type:1-文件大小(MB),operator:>,value:100,invalid:False
+2021-11-21 15:32:39.851info-->isConflicted:False
+2021-11-21 15:42:54.754info-->isConflicted:False
+2021-11-21 15:42:57.020info-->isConflicted:False
+2021-11-21 15:42:59.292info-->isConflicted:False

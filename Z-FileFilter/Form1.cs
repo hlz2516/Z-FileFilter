@@ -27,7 +27,7 @@ namespace Z_FileFilter
             //初始化参数
             mainForm = this;
             resultTab = new Form2();
-            btnColor = Color.Lime;
+            btnColor = Color.FromArgb(0,255,127);
             btnStopColor = Color.Red;
             button1.BackColor = btnColor;
         }
@@ -49,7 +49,7 @@ namespace Z_FileFilter
                 case "2-文件名称":
                     sign.Items.AddRange(new string[]
                     {
-                        "like","等于"
+                        "like","unlike"
                     });
                     break;
                 case "3-创建时间":
@@ -261,6 +261,12 @@ namespace Z_FileFilter
                         {
                             continue;
                         }
+                        //在这里判定目录的访问控制
+                        bool canList= PublicTools.CheckPermissionOnDir(curFilePath);
+                        if (!canList)
+                        {
+                            continue;
+                        }
                         string[] subDirAndFiles = Directory.GetFileSystemEntries(curFilePath);
                         foreach (var path in subDirAndFiles)
                         {
@@ -275,6 +281,10 @@ namespace Z_FileFilter
                             return;
                         }
                         //对文件操作的逻辑
+                        if (curFilePath.Length >259)
+                        {
+                            continue;
+                        }
                         FileInfo fileInfo = new FileInfo(curFilePath);
                         bool res = FileFilter.DoFilter(fileInfo, conditions);
                         if (res == true)
@@ -290,6 +300,23 @@ namespace Z_FileFilter
             {
                 if (Directory.Exists(filePath) == true)
                 {
+                    FileInfo curFilePathInfo = new FileInfo(filePath);
+                    DirectoryInfo directoryInfo = new DirectoryInfo(filePath);
+                    if (PublicTools.IsSystemHidden(directoryInfo))
+                    {
+                        PublicTools.WriteLogs("logs", "error", "this is a hidden directory[" + filePath + "]");
+                        finishEvent();
+                        return;
+                    }
+                    //在这里判定目录的访问控制
+                    bool canList = PublicTools.CheckPermissionOnDir(filePath);
+                    if (!canList)
+                    {
+                        PublicTools.WriteLogs("logs","error","you dont have permission " +
+                            "to open directory[" + filePath + "]");
+                        finishEvent();
+                        return;
+                    }
                     string[] files = Directory.GetFiles(filePath);
                     foreach (var file in files)
                     {
@@ -406,6 +433,12 @@ namespace Z_FileFilter
         {
             string targetPath = PublicTools.OpenFolderBrowserDialog();
             FilePathInput.Text = targetPath;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Debug.WriteLine(
+            PublicTools.CheckPermissionOnDir(FilePathInput.Text));
         }
     }
 

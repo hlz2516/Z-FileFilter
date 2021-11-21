@@ -32,6 +32,7 @@ namespace Z_FileFilter
             this.FilePathInput = new System.Windows.Forms.TextBox();
             this.LabelFilePath = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.HelpDocBtn = new System.Windows.Forms.Button();
             this.Value5 = new System.Windows.Forms.TextBox();
@@ -75,6 +76,7 @@ namespace Z_FileFilter
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.HelpDocBtn);
             this.groupBox1.Controls.Add(this.Value5);
@@ -100,6 +102,17 @@ namespace Z_FileFilter
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "搜索条件";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(221, 460);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(83, 30);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "test";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Visible = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -133,6 +146,7 @@ namespace Z_FileFilter
             // Sign5
             // 
             this.Sign5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Sign5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Sign5.FormattingEnabled = true;
             this.Sign5.Location = new System.Drawing.Point(258, 405);
             this.Sign5.Name = "Sign5";
@@ -142,6 +156,7 @@ namespace Z_FileFilter
             // Condition5
             // 
             this.Condition5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Condition5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Condition5.FormattingEnabled = true;
             this.Condition5.Items.AddRange(new object[] {
             "1-文件大小(MB)",
@@ -171,6 +186,7 @@ namespace Z_FileFilter
             // Sign4
             // 
             this.Sign4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Sign4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Sign4.FormattingEnabled = true;
             this.Sign4.Location = new System.Drawing.Point(258, 329);
             this.Sign4.Name = "Sign4";
@@ -180,6 +196,7 @@ namespace Z_FileFilter
             // Condition4
             // 
             this.Condition4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Condition4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Condition4.FormattingEnabled = true;
             this.Condition4.Items.AddRange(new object[] {
             "1-文件大小(MB)",
@@ -195,6 +212,7 @@ namespace Z_FileFilter
             // Sign3
             // 
             this.Sign3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Sign3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Sign3.FormattingEnabled = true;
             this.Sign3.Location = new System.Drawing.Point(258, 254);
             this.Sign3.Name = "Sign3";
@@ -204,6 +222,7 @@ namespace Z_FileFilter
             // Condition3
             // 
             this.Condition3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Condition3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Condition3.FormattingEnabled = true;
             this.Condition3.Items.AddRange(new object[] {
             "1-文件大小(MB)",
@@ -218,7 +237,9 @@ namespace Z_FileFilter
             // 
             // Sign
             // 
+            this.Sign.BackColor = System.Drawing.SystemColors.Window;
             this.Sign.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Sign.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Sign.FormattingEnabled = true;
             this.Sign.Items.AddRange(new object[] {
             "1-是",
@@ -248,6 +269,7 @@ namespace Z_FileFilter
             // Sign2
             // 
             this.Sign2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Sign2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Sign2.FormattingEnabled = true;
             this.Sign2.Location = new System.Drawing.Point(258, 185);
             this.Sign2.Name = "Sign2";
@@ -257,6 +279,7 @@ namespace Z_FileFilter
             // Condition2
             // 
             this.Condition2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Condition2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Condition2.FormattingEnabled = true;
             this.Condition2.Items.AddRange(new object[] {
             "1-文件大小(MB)",
@@ -279,6 +302,7 @@ namespace Z_FileFilter
             // Sign1
             // 
             this.Sign1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Sign1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Sign1.FormattingEnabled = true;
             this.Sign1.Location = new System.Drawing.Point(258, 121);
             this.Sign1.Name = "Sign1";
@@ -288,6 +312,7 @@ namespace Z_FileFilter
             // Condition1
             // 
             this.Condition1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Condition1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Condition1.FormattingEnabled = true;
             this.Condition1.Items.AddRange(new object[] {
             "1-文件大小(MB)",
@@ -382,6 +407,7 @@ namespace Z_FileFilter
         private System.Windows.Forms.Button HelpDocBtn;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 

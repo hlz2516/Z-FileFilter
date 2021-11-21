@@ -9,7 +9,7 @@
 4. 可自定义是否在目录中递归搜索
 
 # 下载
-[Z-FileFilter.zip](https://github.com/hlz2516/Z-FileFilter/releases/download/20211114/Z-FileFilter.zip)
+[Z-FileFilter.zip](https://github.com/hlz2516/Z-FileFilter/releases/download/20211121/Z-FileFilter.v1.2.zip)
 
 # 其他说明
 该项目基于.net framework 3.5版本，仅可在win 7及以上的windows系统中使用(32位系统未知)。

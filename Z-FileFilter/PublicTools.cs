@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
+using System.Security.AccessControl;
 using System.Windows.Forms;
 
 namespace Z_FileFilter
@@ -25,7 +24,7 @@ namespace Z_FileFilter
 
         public static void PrintFileInfo(FileInfo fileInfo)
         {
-            double fileSize = fileInfo.Length*1.0 / 1024 / 1024;
+            double fileSize = fileInfo.Length * 1.0 / 1024 / 1024;
             PublicTools.WriteLogs("logs", "info", "Name=>[" + fileInfo.Name +
                 "]Size=>[" + fileSize + "]CreateTime=>[" + fileInfo.CreationTime +
                 "]LastWriteTime=>[" + fileInfo.LastWriteTime + "]FullName=>[" +
@@ -73,6 +72,44 @@ namespace Z_FileFilter
                 path = dialog.SelectedPath;
             }
             return path;
+        }
+
+        public static bool CheckPermissionOnDir(string path)
+        {
+            bool res = false;
+            DirectorySecurity fileAcl = null;
+            try
+            {
+                fileAcl = Directory.GetAccessControl(path);
+            }
+            catch (Exception)
+            {
+                PublicTools.WriteLogs("logs", "error", "you dont have" +
+                    " permission to open the directory:[" + path + "]");
+                return res;
+            }
+            var rules = fileAcl.GetAccessRules(true, true,
+                typeof(System.Security.Principal.NTAccount)).
+                OfType<FileSystemAccessRule>().ToList();
+            string userName = Path.Combine(
+                Environment.UserDomainName, Environment.UserName);
+            var userRules = rules.Where(i => i.IdentityReference.Value.Equals(userName)
+            || i.IdentityReference.Value.Equals("NT AUTHORITY\\Authenticated Users")
+            || i.IdentityReference.Value.Equals("BUILTIN\\Users"));
+            foreach (var rule in userRules)
+            {
+                bool canListDir, canRead, canAllow;
+                //Debug.WriteLine(rule.FileSystemRights);
+                canListDir = (rule.FileSystemRights & FileSystemRights.ListDirectory) == FileSystemRights.ListDirectory;
+                canRead = (rule.FileSystemRights & FileSystemRights.ReadAndExecute) == FileSystemRights.ReadAndExecute;
+                canAllow = rule.AccessControlType != AccessControlType.Deny;
+                if (canListDir && canRead && canAllow)
+                {
+                    res = true;
+                    break;
+                }
+            }
+            return res;
         }
     }
 }

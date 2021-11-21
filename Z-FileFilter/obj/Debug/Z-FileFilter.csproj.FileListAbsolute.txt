@@ -1,6 +1,5 @@
 E:\Z-FileFilter\Z-FileFilter\bin\Debug\Z-FileFilter.exe
 E:\Z-FileFilter\Z-FileFilter\bin\Debug\Z-FileFilter.pdb
-E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z-FileFilter.csprojAssemblyReference.cache
 E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z_FileFilter.Form1.resources
 E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z_FileFilter.Properties.Resources.resources
 E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z-FileFilter.csproj.GenerateResource.cache
@@ -12,3 +11,4 @@ E:\Z-FileFilter\Z-FileFilter\bin\Debug\Z-FileFilter.exe.manifest
 E:\Z-FileFilter\Z-FileFilter\bin\Debug\Z-FileFilter.application
 E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z-FileFilter.exe.manifest
 E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z-FileFilter.application
+E:\Z-FileFilter\Z-FileFilter\obj\Debug\Z-FileFilter.csprojAssemblyReference.cache

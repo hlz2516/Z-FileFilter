@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Z_FileFilter
@@ -56,6 +53,34 @@ namespace Z_FileFilter
                     try
                     {
                         dateTime = Convert.ToDateTime(Value);
+                    }
+                    catch (FormatException)
+                    {
+                        if (Value.Equals("一周") || Value.Equals("一个月"))
+                        {
+                            InValid = false;
+                            //将value值进行转换
+                            if (Value.Equals("一周"))
+                            {
+                                if (Operator.Equals("之前"))
+                                {
+                                    DateTime beforeOneWeek = DateTime.Today.AddDays(-7);
+                                    System.Diagnostics.Debug.WriteLine("beforeOneWeek" + beforeOneWeek);
+                                    Value = beforeOneWeek.ToString();
+                                    Operator = "之后";
+                                }
+                            }
+                            else if (Value.Equals("一个月"))
+                            {
+                                if (Operator.Equals("之前"))
+                                {
+                                    DateTime beforeOneMonth = DateTime.Today.AddMonths(-1);
+                                    System.Diagnostics.Debug.WriteLine("beforeOneMonth" + beforeOneMonth);
+                                    Value = beforeOneMonth.ToString();
+                                    Operator = "之后";
+                                }
+                            }
+                        }
                     }
                     catch (InvalidCastException)
                     {

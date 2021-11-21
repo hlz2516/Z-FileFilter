@@ -15,3 +15,206 @@
 2021-11-20 10:34:13.957info-->isConflicted:False
 2021-11-20 10:34:56.753info-->type:1-文件大小(MB),operator:>,value:0.5,invalid:False
 2021-11-20 10:34:56.753info-->isConflicted:False
+2021-11-20 17:45:02.992info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 17:45:02.995info-->isConflicted:False
+2021-11-20 17:53:04.594info-->isConflicted:False
+2021-11-20 17:55:10.558info-->isConflicted:False
+2021-11-20 21:29:38.433info-->isConflicted:False
+2021-11-20 21:33:46.384info-->isConflicted:False
+2021-11-20 21:34:51.402info-->type:1-文件大小(MB),operator:>,value:1,invalid:False
+2021-11-20 21:34:51.403info-->isConflicted:False
+2021-11-20 21:36:32.112info-->isConflicted:False
+2021-11-20 21:37:42.239info-->isConflicted:False
+2021-11-20 21:37:44.929info-->isConflicted:False
+2021-11-20 21:37:52.801info-->isConflicted:False
+2021-11-20 21:37:57.801info-->isConflicted:False
+2021-11-20 21:38:03.945info-->isConflicted:False
+2021-11-20 21:38:08.929info-->isConflicted:False
+2021-11-20 21:38:34.201info-->isConflicted:False
+2021-11-20 21:39:39.073info-->isConflicted:False
+2021-11-20 21:44:21.023info-->isConflicted:False
+2021-11-20 21:44:27.345info-->isConflicted:False
+2021-11-20 21:49:24.266info-->isConflicted:False
+2021-11-20 21:49:24.312error-->this is system protected directory:C:\Windows\Temp
+2021-11-20 21:49:29.721info-->isConflicted:False
+2021-11-20 21:49:48.880info-->isConflicted:False
+2021-11-20 21:51:21.399info-->isConflicted:False
+2021-11-20 21:53:21.595info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 21:53:21.595info-->isConflicted:False
+2021-11-20 21:53:41.858info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 21:53:41.859info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 21:53:41.859info-->isConflicted:False
+2021-11-20 21:59:11.294info-->isConflicted:False
+2021-11-20 21:59:11.312error-->this is system protected directory:C:\Windows\Temp
+2021-11-20 22:01:45.015info-->isConflicted:False
+2021-11-20 22:08:00.406info-->isConflicted:False
+2021-11-20 22:08:00.458error-->system protected directory:C:\Windows\Temp\WinSAT
+2021-11-20 22:08:00.462error-->system protected directory:C:\Windows\Temp\vmware-SYSTEM
+2021-11-20 22:09:39.921info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 22:09:39.921info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 22:09:39.921info-->isConflicted:False
+2021-11-20 22:10:14.256error-->system protected directory:C:\Windows\Temp\WinSAT
+2021-11-20 22:10:14.259error-->system protected directory:C:\Windows\Temp\vmware-SYSTEM
+2021-11-20 22:29:02.132info-->isConflicted:False
+2021-11-20 22:58:54.739info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 22:58:54.739info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 22:58:54.740info-->isConflicted:False
+2021-11-20 22:59:34.661error-->this is readonly directoryC:\Windows\Web\Wallpaper\Windows
+2021-11-20 22:59:34.661error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme2
+2021-11-20 22:59:34.662error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme1
+2021-11-20 22:59:34.663error-->this is readonly directoryC:\Windows\Web\Screen
+2021-11-20 22:59:34.664error-->this is readonly directoryC:\Windows\Web\4K\Wallpaper\Windows
+2021-11-20 23:02:37.613info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 23:02:37.613info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:02:37.614info-->isConflicted:False
+2021-11-20 23:03:12.480error-->this is readonly directoryC:\Windows\Web\Wallpaper\Windows
+2021-11-20 23:03:12.481error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme2
+2021-11-20 23:03:12.481error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme1
+2021-11-20 23:03:12.482error-->this is readonly directoryC:\Windows\Web\Screen
+2021-11-20 23:03:12.483error-->this is readonly directoryC:\Windows\Web\4K\Wallpaper\Windows
+2021-11-20 23:03:12.497error-->this is system proected directoryC:\Windows\Temp\vmware-SYSTEM
+2021-11-20 23:05:18.021info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 23:05:18.021info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:05:18.021info-->isConflicted:False
+2021-11-20 23:05:52.978error-->this is readonly directoryC:\Windows\Web\Wallpaper\Windows
+2021-11-20 23:05:52.979error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme2
+2021-11-20 23:05:52.979error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme1
+2021-11-20 23:05:52.980error-->this is readonly directoryC:\Windows\Web\Screen
+2021-11-20 23:05:52.981error-->this is readonly directoryC:\Windows\Web\4K\Wallpaper\Windows
+2021-11-20 23:05:52.995error-->this is system proected directoryC:\Windows\Temp\vmware-SYSTEM
+2021-11-20 23:08:11.691info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:08:11.692info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 23:08:11.692info-->isConflicted:False
+2021-11-20 23:15:37.432info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:15:37.433info-->isConflicted:False
+2021-11-20 23:28:49.838info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:28:49.839info-->isConflicted:False
+2021-11-20 23:37:45.147info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:37:45.147info-->isConflicted:False
+2021-11-20 23:37:45.749error-->there are some protected directory in C:\Windows\SysWOW64\Tasks
+2021-11-20 23:37:45.777error-->this is system proected directoryC:\Windows\SysWOW64\sru
+2021-11-20 23:37:46.000error-->this is system proected directoryC:\Windows\SysWOW64\networklist
+2021-11-20 23:37:46.067error-->this is system proected directoryC:\Windows\SysWOW64\Msdtc
+2021-11-20 23:37:46.356error-->this is system proected directoryC:\Windows\SysWOW64\inetsrv\Config
+2021-11-20 23:37:46.439error-->this is system proected directoryC:\Windows\SysWOW64\FxsTmp
+2021-11-20 23:37:46.793error-->this is system proected directoryC:\Windows\SysWOW64\Configuration
+2021-11-20 23:37:46.796error-->this is system proected directoryC:\Windows\SysWOW64\config
+2021-11-20 23:37:46.808error-->this is system proected directoryC:\Windows\SysWOW64\Com\dmp
+2021-11-20 23:39:28.708info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:39:28.709info-->type:3-创建时间,operator:之后,value:2021-11-18,invalid:False
+2021-11-20 23:39:28.709info-->isConflicted:False
+2021-11-20 23:40:11.551error-->this is readonly directoryC:\Windows\Web\Wallpaper\Windows
+2021-11-20 23:40:11.552error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme2
+2021-11-20 23:40:11.552error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme1
+2021-11-20 23:40:11.553error-->this is readonly directoryC:\Windows\Web\Screen
+2021-11-20 23:40:11.555error-->this is readonly directoryC:\Windows\Web\4K\Wallpaper\Windows
+2021-11-20 23:40:20.306error-->this is system proected directoryC:\Windows\Temp\vmware-SYSTEM
+2021-11-20 23:40:20.967error-->there are some protected directory in C:\Windows\SysWOW64\Tasks
+2021-11-20 23:40:20.996error-->this is system proected directoryC:\Windows\SysWOW64\sru
+2021-11-20 23:40:21.202error-->this is system proected directoryC:\Windows\SysWOW64\networklist
+2021-11-20 23:40:21.266error-->this is system proected directoryC:\Windows\SysWOW64\Msdtc
+2021-11-20 23:40:21.545error-->this is system proected directoryC:\Windows\SysWOW64\inetsrv\Config
+2021-11-20 23:40:21.625error-->this is system proected directoryC:\Windows\SysWOW64\FxsTmp
+2021-11-20 23:40:21.954error-->this is system proected directoryC:\Windows\SysWOW64\Configuration
+2021-11-20 23:40:21.958error-->this is system proected directoryC:\Windows\SysWOW64\config
+2021-11-20 23:40:21.970error-->this is system proected directoryC:\Windows\SysWOW64\Com\dmp
+2021-11-20 23:40:22.122error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.SettingsHandlers-nt
+2021-11-20 23:40:22.123error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.SettingsAppThreshold
+2021-11-20 23:40:22.124error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.SettingsAdminFlowUIThreshold
+2021-11-20 23:40:22.124error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.Search
+2021-11-20 23:40:22.125error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.PrintDialog
+2021-11-20 23:40:22.140error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.AccountsControl
+2021-11-20 23:40:22.141error-->this is readonly directoryC:\Windows\SystemResources\Windows.SystemToast.Calling
+2021-11-20 23:40:22.141error-->this is readonly directoryC:\Windows\SystemResources\Windows.ShellCommon.SharedResources
+2021-11-20 23:40:22.199error-->this is readonly directoryC:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\pris
+2021-11-20 23:40:22.200error-->this is readonly directoryC:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\Assets
+2021-11-20 23:40:22.476error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy\pris
+2021-11-20 23:40:22.482error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.Windows.FileExplorer_cw5n1h2txyewy\pris
+2021-11-20 23:40:22.707error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\pris
+2021-11-20 23:40:22.883error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy\pris
+2021-11-20 23:40:23.789error-->this is system proected directoryC:\Windows\System32\WDI
+2021-11-20 23:40:23.915error-->this is system proected directoryC:\Windows\System32\wbem\MOF
+2021-11-20 23:40:24.083error-->there are some protected directory in C:\Windows\System32\Tasks_Migrated
+2021-11-20 23:40:24.087error-->there are some protected directory in C:\Windows\System32\Tasks
+2021-11-20 23:40:24.134error-->this is system proected directoryC:\Windows\System32\sru
+2021-11-20 23:40:24.198error-->this is system proected directoryC:\Windows\System32\spool\SERVERS
+2021-11-20 23:40:24.203error-->this is system proected directoryC:\Windows\System32\spool\PRINTERS
+2021-11-20 23:40:24.284error-->this is system proected directoryC:\Windows\System32\SleepStudy
+2021-11-20 23:40:24.375error-->this is system proected directoryC:\Windows\System32\RsFx
+2021-11-20 23:40:24.699error-->this is system proected directoryC:\Windows\System32\networklist
+2021-11-20 23:40:24.769error-->this is system proected directoryC:\Windows\System32\MsDtc
+2021-11-20 23:40:25.006error-->this is system proected directoryC:\Windows\System32\LogFiles\WMI\RtBackup
+2021-11-20 23:40:25.352error-->this is system proected directoryC:\Windows\System32\inetsrv\MetaBack
+2021-11-20 23:40:25.366error-->this is system proected directoryC:\Windows\System32\inetsrv\History
+2021-11-20 23:40:25.385error-->this is system proected directoryC:\Windows\System32\inetsrv\config
+2021-11-20 23:40:25.448error-->this is system proected directoryC:\Windows\System32\ias
+2021-11-20 23:40:25.503error-->this is system proected directoryC:\Windows\System32\FxsTmp
+2021-11-20 23:40:27.636error-->this is system proected directoryC:\Windows\System32\DriverState
+2021-11-20 23:40:27.791error-->this is system proected directoryC:\Windows\System32\drivers\DriverData
+2021-11-20 23:40:28.043error-->this is system proected directoryC:\Windows\System32\Configuration
+2021-11-20 23:40:28.047error-->this is system proected directoryC:\Windows\System32\config
+2021-11-20 23:40:28.063error-->this is system proected directoryC:\Windows\System32\Com\dmp
+2021-11-20 23:44:36.912info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:44:36.912info-->isConflicted:False
+2021-11-20 23:45:08.406info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:45:08.406info-->type:3-创建时间,operator:之后,value:2021-11-15,invalid:False
+2021-11-20 23:45:08.407info-->isConflicted:False
+2021-11-20 23:45:48.113error-->this is readonly directoryC:\Windows\Web\Wallpaper\Windows
+2021-11-20 23:45:48.114error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme2
+2021-11-20 23:45:48.115error-->this is readonly directoryC:\Windows\Web\Wallpaper\Theme1
+2021-11-20 23:45:48.116error-->this is readonly directoryC:\Windows\Web\Screen
+2021-11-20 23:45:48.118error-->this is readonly directoryC:\Windows\Web\4K\Wallpaper\Windows
+2021-11-20 23:45:48.336error-->this is system proected directoryC:\Windows\Temp\vmware-SYSTEM
+2021-11-20 23:45:48.896error-->there are some protected directory in C:\Windows\SysWOW64\Tasks
+2021-11-20 23:45:48.920error-->this is system proected directoryC:\Windows\SysWOW64\sru
+2021-11-20 23:45:49.113error-->this is system proected directoryC:\Windows\SysWOW64\networklist
+2021-11-20 23:45:49.168error-->this is system proected directoryC:\Windows\SysWOW64\Msdtc
+2021-11-20 23:45:49.398error-->this is system proected directoryC:\Windows\SysWOW64\inetsrv\Config
+2021-11-20 23:45:49.468error-->this is system proected directoryC:\Windows\SysWOW64\FxsTmp
+2021-11-20 23:45:49.746error-->this is system proected directoryC:\Windows\SysWOW64\Configuration
+2021-11-20 23:45:49.749error-->this is system proected directoryC:\Windows\SysWOW64\config
+2021-11-20 23:45:49.761error-->this is system proected directoryC:\Windows\SysWOW64\Com\dmp
+2021-11-20 23:45:49.893error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.SettingsHandlers-nt
+2021-11-20 23:45:49.894error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.SettingsAppThreshold
+2021-11-20 23:45:49.894error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.SettingsAdminFlowUIThreshold
+2021-11-20 23:45:49.895error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.Search
+2021-11-20 23:45:49.895error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.PrintDialog
+2021-11-20 23:45:49.906error-->this is readonly directoryC:\Windows\SystemResources\Windows.UI.AccountsControl
+2021-11-20 23:45:49.907error-->this is readonly directoryC:\Windows\SystemResources\Windows.SystemToast.Calling
+2021-11-20 23:45:49.907error-->this is readonly directoryC:\Windows\SystemResources\Windows.ShellCommon.SharedResources
+2021-11-20 23:45:49.960error-->this is readonly directoryC:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\pris
+2021-11-20 23:45:49.961error-->this is readonly directoryC:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\Assets
+2021-11-20 23:45:50.220error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy\pris
+2021-11-20 23:45:50.225error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.Windows.FileExplorer_cw5n1h2txyewy\pris
+2021-11-20 23:45:50.410error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\pris
+2021-11-20 23:45:50.570error-->this is readonly directoryC:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy\pris
+2021-11-20 23:45:51.395error-->this is system proected directoryC:\Windows\System32\WDI
+2021-11-20 23:45:51.497error-->this is system proected directoryC:\Windows\System32\wbem\MOF
+2021-11-20 23:45:51.641error-->there are some protected directory in C:\Windows\System32\Tasks_Migrated
+2021-11-20 23:45:51.646error-->there are some protected directory in C:\Windows\System32\Tasks
+2021-11-20 23:45:51.691error-->this is system proected directoryC:\Windows\System32\sru
+2021-11-20 23:45:51.747error-->this is system proected directoryC:\Windows\System32\spool\SERVERS
+2021-11-20 23:45:51.752error-->this is system proected directoryC:\Windows\System32\spool\PRINTERS
+2021-11-20 23:45:51.827error-->this is system proected directoryC:\Windows\System32\SleepStudy
+2021-11-20 23:45:51.896error-->this is system proected directoryC:\Windows\System32\RsFx
+2021-11-20 23:45:52.198error-->this is system proected directoryC:\Windows\System32\networklist
+2021-11-20 23:45:52.258error-->this is system proected directoryC:\Windows\System32\MsDtc
+2021-11-20 23:45:52.440error-->this is system proected directoryC:\Windows\System32\LogFiles\WMI\RtBackup
+2021-11-20 23:45:52.740error-->this is system proected directoryC:\Windows\System32\inetsrv\MetaBack
+2021-11-20 23:45:52.753error-->this is system proected directoryC:\Windows\System32\inetsrv\History
+2021-11-20 23:45:52.765error-->this is system proected directoryC:\Windows\System32\inetsrv\config
+2021-11-20 23:45:52.817error-->this is system proected directoryC:\Windows\System32\ias
+2021-11-20 23:45:52.864error-->this is system proected directoryC:\Windows\System32\FxsTmp
+2021-11-20 23:45:54.735error-->this is system proected directoryC:\Windows\System32\DriverState
+2021-11-20 23:45:54.864error-->this is system proected directoryC:\Windows\System32\drivers\DriverData
+2021-11-20 23:45:55.059error-->this is system proected directoryC:\Windows\System32\Configuration
+2021-11-20 23:45:55.063error-->this is system proected directoryC:\Windows\System32\config
+2021-11-20 23:45:55.076error-->this is system proected directoryC:\Windows\System32\Com\dmp
+2021-11-20 23:51:54.551info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:51:54.551info-->type:3-创建时间,operator:之后,value:2021-11-1,invalid:False
+2021-11-20 23:51:54.551info-->isConflicted:False
+2021-11-20 23:52:16.594error-->this is readonly directoryD:\PR\Adobe Premiere Pro 2020
+2021-11-20 23:54:30.759info-->type:1-文件大小(MB),operator:>,value:10,invalid:False
+2021-11-20 23:54:30.759info-->type:3-创建时间,operator:之后,value:2021-11-1,invalid:False
+2021-11-20 23:54:30.760info-->isConflicted:False
+2021-11-20 23:54:43.130error-->this is readonly directoryE:\BaiduNetdiskWorkspace

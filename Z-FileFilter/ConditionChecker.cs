@@ -67,14 +67,9 @@ namespace Z_FileFilter
                         }
                         break;
                     case "2-文件名称":
-                        Condition condition = null;
                         foreach (var item in group)
                         {
-                            condition = item;
-                        }
-                        if (condition!=null)
-                        {
-                            nonConflictedCons.Add(condition);
+                            nonConflictedCons.Add(item);
                         }
                         break;
                     case "3-创建时间":
