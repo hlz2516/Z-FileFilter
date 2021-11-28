@@ -14,8 +14,8 @@ namespace Z_FileFilter
         {
             this.conditions = conditions; 
         }
-        //只检查每组里面是否存在冲突
-        //返回没有冲突的条件
+        //将各个条件根据类型进行分组，然后只检查每组里面是否存在冲突
+        //返回没有冲突的条件nonConflictedCons
         public bool CheckConditions(ref List<Condition> nonConflictedCons)
         {
             if (nonConflictedCons == null)

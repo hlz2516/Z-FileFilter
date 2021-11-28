@@ -60,17 +60,18 @@ namespace Z_FileFilter
             // 
             // FilePathInput
             // 
-            this.FilePathInput.Location = new System.Drawing.Point(126, 30);
+            this.FilePathInput.Location = new System.Drawing.Point(115, 23);
             this.FilePathInput.Name = "FilePathInput";
-            this.FilePathInput.Size = new System.Drawing.Size(391, 25);
+            this.FilePathInput.Size = new System.Drawing.Size(400, 25);
             this.FilePathInput.TabIndex = 0;
             // 
             // LabelFilePath
             // 
             this.LabelFilePath.AutoSize = true;
-            this.LabelFilePath.Location = new System.Drawing.Point(53, 33);
+            this.LabelFilePath.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LabelFilePath.Location = new System.Drawing.Point(24, 26);
             this.LabelFilePath.Name = "LabelFilePath";
-            this.LabelFilePath.Size = new System.Drawing.Size(67, 15);
+            this.LabelFilePath.Size = new System.Drawing.Size(85, 19);
             this.LabelFilePath.TabIndex = 1;
             this.LabelFilePath.Text = "目录路径";
             // 
@@ -349,9 +350,9 @@ namespace Z_FileFilter
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(523, 30);
+            this.button3.Location = new System.Drawing.Point(521, 23);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 26);
+            this.button3.Size = new System.Drawing.Size(90, 25);
             this.button3.TabIndex = 7;
             this.button3.Text = "选择目录";
             this.button3.UseVisualStyleBackColor = true;

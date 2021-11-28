@@ -65,7 +65,6 @@ namespace Z_FileFilter
                                 if (Operator.Equals("之前"))
                                 {
                                     DateTime beforeOneWeek = DateTime.Today.AddDays(-7);
-                                    System.Diagnostics.Debug.WriteLine("beforeOneWeek" + beforeOneWeek);
                                     Value = beforeOneWeek.ToString();
                                     Operator = "之后";
                                 }
@@ -75,7 +74,6 @@ namespace Z_FileFilter
                                 if (Operator.Equals("之前"))
                                 {
                                     DateTime beforeOneMonth = DateTime.Today.AddMonths(-1);
-                                    System.Diagnostics.Debug.WriteLine("beforeOneMonth" + beforeOneMonth);
                                     Value = beforeOneMonth.ToString();
                                     Operator = "之后";
                                 }

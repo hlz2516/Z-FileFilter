@@ -111,5 +111,39 @@ namespace Z_FileFilter
             }
             return res;
         }
+
+        public static bool CheckDelPermissionOnFile(string path)
+        {
+            bool res = false;
+            FileSecurity fileAcl = null;
+            try
+            {
+                fileAcl = File.GetAccessControl(path);
+            }
+            catch (Exception)
+            {
+                PublicTools.WriteLogs("logs", "error", "you dont have" +
+                    " permission to open the directory:[" + path + "]");
+                return res;
+            }
+            var rules = fileAcl.GetAccessRules(true, true,
+                typeof(System.Security.Principal.NTAccount)).
+                OfType<FileSystemAccessRule>().ToList();
+            string userName = Path.Combine(
+                Environment.UserDomainName, Environment.UserName);
+            var userRules = rules.Where(i => i.IdentityReference.Value.Equals(userName)
+            || i.IdentityReference.Value.Equals("NT AUTHORITY\\Authenticated Users")
+            || i.IdentityReference.Value.Equals("BUILTIN\\Users"));
+            foreach (var rule in userRules)
+            {
+                if ((rule.FileSystemRights & FileSystemRights.Delete)
+                    == FileSystemRights.Delete)
+                {
+                    res = true;
+                    break;
+                }
+            }
+            return res;
+        }
     }
 }

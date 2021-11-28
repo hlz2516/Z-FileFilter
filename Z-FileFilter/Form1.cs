@@ -11,6 +11,8 @@ namespace Z_FileFilter
 {
     public partial class Form1 : Form
     {
+        delegate void AsynUpdateUI();
+
         public static bool isSearching = false;
         public static bool wantStop = false;
         private List<Condition> conditions;
@@ -117,7 +119,6 @@ namespace Z_FileFilter
             }
             if(Directory.Exists(dirPath) == true)
             {
-                //检查各条件之间是否出现矛盾，有任意一个矛盾出现则提示用户
                 string[] types = new string[5];
                 string[] opers = new string[5];
                 string[] vals = new string[5];
@@ -147,8 +148,8 @@ namespace Z_FileFilter
                 opers[4] = Sign5.Text;
                 vals[4] = Value5.Text;
                 cons[4] = new Condition(types[4], opers[4], vals[4]);
-
-               bool res =  new ConditionChecker(cons.ToList()).CheckConditions(ref conditions);
+                //检查各条件之间是否出现矛盾，有任意一个矛盾出现则提示用户
+                bool res =  new ConditionChecker(cons.ToList()).CheckConditions(ref conditions);
                 PublicTools.WriteLogs("logs", "info", "isConflicted:" + res);
                 if (true == res)
                 {
@@ -197,9 +198,10 @@ namespace Z_FileFilter
                 this.Invoke(new AsynUpdateUI(
                     delegate ()
                     {
-                        ListViewNF listView = resultTab.GetListView();
+                        ListViewNF listView = resultTab.listView1;
                         var item = new ListViewItem();
-                        item.Text = fileInfo.Name;
+                        item.Text = listView.Items.Count +1 + "";
+                        item.SubItems.Add(fileInfo.Name);
                         double size = fileInfo.Length * 1.0 / 1024 / 1024;
                         item.SubItems.Add(Convert.ToDouble(size).ToString("0.00"));
                         item.SubItems.Add(fileInfo.FullName);
@@ -224,6 +226,7 @@ namespace Z_FileFilter
                         this.conditions = null;
                         Form1.isSearching = false;
                         Form1.wantStop = false;
+                        resultTab.LabelFileCount.Text = resultTab.listView1.Items.Count.ToString();
                     }));
             }
         }
@@ -261,7 +264,7 @@ namespace Z_FileFilter
                         {
                             continue;
                         }
-                        //在这里判定目录的访问控制
+
                         bool canList= PublicTools.CheckPermissionOnDir(curFilePath);
                         if (!canList)
                         {
@@ -338,7 +341,7 @@ namespace Z_FileFilter
             }
         }
 
-        delegate void AsynUpdateUI();
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -354,13 +357,11 @@ namespace Z_FileFilter
             }
             else if (sign.Equals("<"))
             {
-                resultTab.Hide();
-                this.Location = startPos;
-                ResultTabSwitch.Text = ">";
+                CloseResultTable();
             }
         }
 
-        private void OpenResultTable()
+        public void OpenResultTable()
         {
             //先处理查询界面的X位置
             int sumOfWidth = this.ClientSize.Width + resultTab.ClientSize.Width;
@@ -373,6 +374,13 @@ namespace Z_FileFilter
             resultTab.Show();
             resultTab.Location = new Point(resTabX, this.Location.Y);
             ResultTabSwitch.Text = "<";
+        }
+
+        public void CloseResultTable()
+        {
+            resultTab.Hide();
+            this.Location = startPos;
+            ResultTabSwitch.Text = ">";
         }
 
         private void HelpDocBtn_Click(object sender, EventArgs e)

@@ -7,9 +7,10 @@
 2. 实时显示搜素结果，可即时中断搜索
 3. 查询界面和结果界面分离
 4. 可自定义是否在目录中递归搜索
+5. 支持将搜索出的文件做拷贝，删除操作
 
 # 下载
-[Z-FileFilter.zip](https://github.com/hlz2516/Z-FileFilter/releases/download/20211121/Z-FileFilter.v1.2.zip)
+[Z-FileFilter.zip](https://github.com/hlz2516/Z-FileFilter/releases/download/20211128/Z-FileFilter.v1.3.zip)
 
 # 其他说明
 该项目基于.net framework 3.5版本，仅可在win 7及以上的windows系统中使用(32位系统未知)。
