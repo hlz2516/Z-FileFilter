@@ -254,46 +254,53 @@ namespace Z_FileFilter
                 stack.Push(filePath);
                 while (stack.Count != 0)
                 {
-                    string curFilePath = stack.Pop();
-                    if (Directory.Exists(curFilePath) == true)
+                    try
                     {
-                        //如果这个目录可读，获取这个目录下所有的文件和目录，加入到stack中
-                        FileInfo curFilePathInfo = new FileInfo(curFilePath);
-                        DirectoryInfo directoryInfo = new DirectoryInfo(curFilePath);
-                        if (PublicTools.IsSystemHidden(directoryInfo))
+                        string curFilePath = stack.Pop();
+                        if (Directory.Exists(curFilePath) == true)
                         {
-                            continue;
-                        }
+                            //如果这个目录可读，获取这个目录下所有的文件和目录，加入到stack中
+                            FileInfo curFilePathInfo = new FileInfo(curFilePath);
+                            DirectoryInfo directoryInfo = new DirectoryInfo(curFilePath);
+                            if (PublicTools.IsSystemHidden(directoryInfo))
+                            {
+                                continue;
+                            }
 
-                        bool canList= PublicTools.CheckPermissionOnDir(curFilePath);
-                        if (!canList)
-                        {
-                            continue;
+                            bool canList = PublicTools.CheckPermissionOnDir(curFilePath);
+                            if (!canList)
+                            {
+                                continue;
+                            }
+                            string[] subDirAndFiles = Directory.GetFileSystemEntries(curFilePath);
+                            foreach (var path in subDirAndFiles)
+                            {
+                                stack.Push(path);
+                            }
                         }
-                        string[] subDirAndFiles = Directory.GetFileSystemEntries(curFilePath);
-                        foreach (var path in subDirAndFiles)
+                        else
                         {
-                            stack.Push(path);
+                            if (wantStop)
+                            {
+                                finishEvent();
+                                return;
+                            }
+                            //对文件操作的逻辑
+                            if (curFilePath.Length > 259)
+                            {
+                                continue;
+                            }
+                            FileInfo fileInfo = new FileInfo(curFilePath);
+                            bool res = FileFilter.DoFilter(fileInfo, conditions);
+                            if (res == true)
+                            {
+                                AddEvent(fileInfo);
+                            }
                         }
                     }
-                    else
+                    catch (Exception ex)
                     {
-                        if (wantStop)
-                        {
-                            finishEvent();
-                            return;
-                        }
-                        //对文件操作的逻辑
-                        if (curFilePath.Length >259)
-                        {
-                            continue;
-                        }
-                        FileInfo fileInfo = new FileInfo(curFilePath);
-                        bool res = FileFilter.DoFilter(fileInfo, conditions);
-                        if (res == true)
-                        {
-                            AddEvent(fileInfo);
-                        }
+                        PublicTools.WriteLogs("logs", "error", ex.ToString());
                     }
                 }
                 finishEvent();
@@ -320,23 +327,30 @@ namespace Z_FileFilter
                         finishEvent();
                         return;
                     }
-                    string[] files = Directory.GetFiles(filePath);
-                    foreach (var file in files)
+                    try
                     {
-                        //判断用户是否按下停止键，若按下，终止查找线程
-                        if (wantStop == true)
+                        string[] files = Directory.GetFiles(filePath);
+                        foreach (var file in files)
                         {
-                            finishEvent();
-                            return;
+                            //判断用户是否按下停止键，若按下，终止查找线程
+                            if (wantStop == true)
+                            {
+                                finishEvent();
+                                return;
+                            }
+                            //对文件操作的逻辑
+                            FileInfo fileInfo = new FileInfo(file);
+                            if (FileFilter.DoFilter(fileInfo, conditions))
+                            {
+                                AddEvent(fileInfo);
+                            }
                         }
-                        //对文件操作的逻辑
-                        FileInfo fileInfo = new FileInfo(file);
-                        if (FileFilter.DoFilter(fileInfo, conditions))
-                        {
-                            AddEvent(fileInfo);
-                        }
+                        finishEvent();
                     }
-                    finishEvent();
+                    catch (Exception ex)
+                    {
+                        PublicTools.WriteLogs("logs", "error", ex.ToString());
+                    }
                 }
             }
         }
