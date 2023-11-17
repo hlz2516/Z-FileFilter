@@ -1,0 +1,8 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/Z-FileFilter/.vs/Z-FileFilter
+/Z-FileFilter/bin/Debug/logs/20231117/20231117.txt
+/Z-FileFilter/obj/Debug
+/Z-FileFilter/obj/Release
